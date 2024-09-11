@@ -1,0 +1,69 @@
+.library{
+    margin: 0 30px;
+    background-color: lightblue;
+    height: 680px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    text-align:center;
+    padding-top: 25px;
+    font-family: Sans-serif, verdana;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#newBookBtn{
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 20px;
+    height:30px;
+    width: 90px;
+    border-radius:20px;
+    border: 2px solid yellowgreen;
+    font-family: Sans-serif, verdana;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+#bookList{
+    background-color:yellowgreen;
+    font-family: Sans-serif, verdana;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    min-height: 100px;
+    padding: 20px;
+    
+}
+
+.book-card{
+    height: 400px;
+    width: 350px;
+    background-color:lightblue;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* claude css */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
