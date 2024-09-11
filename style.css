@@ -33,21 +33,21 @@
     font-family: Sans-serif, verdana;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
+    column-gap: 10;
     min-height: 100px;
     padding: 20px;
     
 }
 
 .book-card{
-    height: 400px;
-    width: 350px;
+    height: 250px;
+    width: 150px;
     background-color:lightblue;
     border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-/* claude css */
+
 .modal {
     display: none;
     position: fixed;
